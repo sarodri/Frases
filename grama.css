@@ -1,12 +1,10 @@
 body{
- 
     flex-direction: column;
     margin: 15px;
     align-content: center;
     background-color: beige;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 h2{
     text-align: center;
     color: darkslategrey;
