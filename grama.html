@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frases: ¿Hetero, Iso o Pangrama?</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="grama.css">
+</head>
+<body>
+    <h2>Comprueba si tu frase en un Heterograma, un Isograma o un Pangrama</h2>
+    <div class="tipos">
+        <div class="tipos-definicion">
+            <p id="titulo">¿Qué es un Heterograma?</p>
+            <p id="definicion">Un heterograma es una palabra o frase que no contiene ninguna letra repetida</p>
+        </div>
+        <div class="tipos-definicion">
+            <p id="titulo">¿Qué es un Isograma?</p>
+            <p id="definicion">Un isograma es una frase en la que cada letra aparece el mismo número de veces</p>
+        </div>
+        <div class="tipos-definicion">
+            <p id="titulo">¿Qué es un Pangrama?</p>
+            <p id="definicion">Un pangrama es una frase que usa todas las letras posibles del alfabeto</p>
+        </div>
+    </div>
+    <label for="texto"><i class="bi bi-pencil-fill"></i> Escribe un texto:</label>
+    <br>
+    <textarea id="texto"></textarea>
+    <br>
+    <div class="buttons"> 
+        <button id="boton">¿Heterograma?</button>
+        <button id="boton2">¿Isograma?</button>
+        <button id="boton3">¿Pangrama?</button>
+    </div>
+    <br>
+    <pi id="resultado"></pi>
+</body>
+<script src="grama.js"> </script>
+</html>
